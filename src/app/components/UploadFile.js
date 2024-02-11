@@ -1,3 +1,4 @@
+'use client';
 import Uploadfileicon from "./UploadFileicon";
 
 export default function UploadFile(){
