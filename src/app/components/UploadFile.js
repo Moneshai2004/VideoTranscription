@@ -8,7 +8,7 @@ export default function UploadFile(){
       console.log(ev);
       const files = ev.target.files;
       if(files.length > 0){
-        const file =file[0];
+        const file = file[0];
         const res = await axios.post('/api/upload',{
           file,});
       }
