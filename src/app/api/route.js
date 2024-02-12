@@ -1,6 +1,5 @@
-export async function post(req){
-    const FormData = await req.FormData();
-   const file = FormData.length('files');
-   const {name,type} = file;
 
+export async function GET(req) {
+  const data = 'Monesh';
+  return Response.json({ data });
 }
